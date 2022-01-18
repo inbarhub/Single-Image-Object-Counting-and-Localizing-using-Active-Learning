@@ -10,17 +10,17 @@ Compared with existing user-assisted counting methods, our active-learning itera
 
 ### Running the code
 
-##### The main script
+You can run the code by calling to count_repetitive_objects.py script with two arguments: an image name and the participant name.
+For example:
+* python3 count_repetitive_objects.py CellSml Inbar
+* python3 count_repetitive_objects.py Logs Jonathan
+* python3 count_repetitive_objects.py Water Michael
 
-You can run the code by calling to count_repetitive_objects.py script with two arguments: an image name and the participant name
-Examples for running the code: 
-     * python3 count_repetitive_objects.py CellSml Inbar
-     * python3 count_repetitive_objects.py Logs Jonathan
-     * python3 count_repetitive_objects.py Water Michael
+At every iteration, positive and negative potential locations will be shown for user feedback. The user needs to click on the *misclassified* ones and close the window. The color of the windows that are clicked by the user will be changed to black.
 
-At every iteration, the inout image will be shown with positive and negative potential locations for user feedback. You need to click of the *misclassified* ones and close the window. This is will be repeated 5 times. At the end, the final repeaintg locations will be presented to you. The localization errors and the counting will be shown in the method's condule/termial as well as will be saved in a dedicated folder.
+This prodeucde is repeated 5 times. At the end, the final repeaintg locations will be presented to the user. The localization errors and the counting will be shown on the console/termial as well as will be saved in a dedicated folder.
 
-To simplify, we removed the option of marking the initial repating object. You can see the windows locations in conf.py script.
+To simplify, we removed the option of marking the initial repeating object. You can see the windows locations in conf.py script.
 
 
 More information can be found in the paper. If you have any questions, you can find me in: inbarhub@gmail.com
