@@ -13,7 +13,7 @@ Compared with existing user-assisted counting methods, our active-learning itera
 
 ### Running the code
 
-You can run the code by calling to count_repetitive_objects.py script with two arguments: an image name and the participant name.
+To run the code, use 'count_repetitive_objects.py' script with two arguments: an image name and the participant name.
 For example:
 * python3 count_repetitive_objects.py CellSml Inbar
 * python3 count_repetitive_objects.py Logs Jonathan
