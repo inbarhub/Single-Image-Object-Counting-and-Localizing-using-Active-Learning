@@ -4,6 +4,9 @@ This is the implementation code of the paper: **[Single-Image-Object-Counting-an
 
 The dataset used in this paper is available at [Single Image Counting Dataset](https://github.com/inbarhub/single_image_dataset).
 
+Requirements:
+tensorflow 1.14.0
+
 ### Abstract
 The need to count and localize repeating objects in an image arises in different scenarios, such as biological microscopy studies, production-lines inspection, and surveillance recordings analysis. The use of supervised Convolutional Neural Networks (CNNs) achieves accurate object detection when trained over large class-specific datasets. The labeling effort in this approach does not pay-off when the counting is required over few images of a unique object class.
 
