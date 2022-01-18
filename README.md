@@ -8,6 +8,7 @@ The dataset used in this paper is available at [Single Image Counting Dataset](h
 The need to count and localize repeating objects in an image arises in different scenarios, such as biological microscopy studies, production-lines inspection, and surveillance recordings analysis. The use of supervised Convolutional Neural Networks (CNNs) achieves accurate object detection when trained over large class-specific datasets. The labeling effort in this approach does not pay-off when the counting is required over few images of a unique object class.
 
 We present a new method for counting and localizing repeating objects in single-image scenarios, assuming no pretrained classifier is available. Our method trains a CNN ver a small set of labels carefully collected from the input mage in few active-learning iterations. At each iteration, he latent space of the network is analyzed to extract a minimal number of user-queries that strives to both sample the n-class manifold as thoroughly as possible as well as avoid edundant labels.
+
 Compared with existing user-assisted counting methods, our active-learning iterations achieve state-of-the-art performance in terms of counting and localizing accuracy, number of user mouse clicks, and running-time. This evaluation was performed through a large user study over a wide range of image classes with diverse conditions of illumination and occlusions
 
 ### Running the code
